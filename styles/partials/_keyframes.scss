@@ -1,0 +1,130 @@
+@keyframes contrast {
+  0%{  
+    transform: translateX(250px);
+    color: rgb(238, 237, 237);
+  }
+  25%{
+    transform: translateX(0px);
+    color: rgb(238, 237, 237);;
+  }
+  50%{ 
+    transform: translateX(0px);
+  }
+  75%{
+    transform: translateX(0px);
+    color: black;
+  }
+  100%{  
+    transform: translateX(-350px);
+    color: black;
+  }
+}
+@keyframes sizes{
+  0%{
+    transform: translateX(250px);
+    
+  }
+  25%{
+    transform: translateX(0px);
+    font-size: 15px;
+  }
+  50%{
+    transform: translateX(0px);
+    
+  }
+  75%{
+    transform: translateX(0px);
+    font-size: 70px;
+  }
+  100%{
+    transform: translateX(-300px);
+    font-size: 70px;
+  }
+}
+@keyframes alt{
+  0%{
+    transform: translateX(300px);
+  }
+  25%{
+    transform: translateX(0px);
+    opacity: 100%;
+  }
+  50%{
+    transform: translateX(0px);
+    opacity: 0%;
+  }
+  75%{
+    transform: translateX(0px);
+    font-size: 70px;
+    opacity: 0%;
+  }
+  100%{
+    transform: translateX(-300px);
+    font-size: 70px;
+    opacity: 0%;
+  }
+}
+@keyframes alt-after{
+  0%{
+    transform: translateX(300px);
+    opacity: 0%;
+  }
+  25%{
+    transform: translateX(0px);
+    opacity: 0%;
+  }
+  50%{
+    transform: translateX(0px);
+    opacity: 50%;
+  }
+  75%{
+    transform: translateX(0px);
+    opacity: 100%;
+  }
+  100%{
+    transform: translateX(-350px);
+    opacity: 100%;
+  }
+}
+@keyframes semantik{
+  0%{
+    transform: translateX(300px);
+  }
+  25%{
+    transform: translateX(0px);
+  }
+  50%{
+    transform: translateX(0px);
+  }
+  75%{
+    transform: translateX(0px);
+  }
+  100%{
+    transform: translateX(-300px);
+  }
+}
+@keyframes responsive{
+  0%{
+    transform: translateX(350px);
+  }
+  25%{
+    transform: translateX(0px);
+    width: 100%;
+    flex-direction: row;
+  }
+  50%{
+    transform: translateX(0px);
+    width: 50%;
+    flex-direction: column;
+  }
+  75%{
+    transform: translateX(0px);
+    width: 50%;
+    flex-direction: column;
+  }
+  100%{
+    transform: translateX(-300px);
+    width: 50%;
+    flex-direction: column;
+  }
+}
