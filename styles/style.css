@@ -873,7 +873,7 @@
 
 .wrapper footer .links {
   margin: 5px;
-  width: 60%;
+  width: 100%;
 }
 
 .wrapper footer .links ul {
@@ -892,5 +892,11 @@
 .wrapper footer .links ul li a {
   text-decoration: none;
   color: black;
+}
+
+@media screen and (min-width: 800px) {
+  .wrapper footer .links {
+    width: 60%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
