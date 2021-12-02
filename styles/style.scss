@@ -18,7 +18,7 @@
    z-index: -999;
    top: 0px;
    left: 0px;
-    object-fit: cover;
+   object-fit: cover;
   }
   header{
     position: fixed;
@@ -298,7 +298,7 @@
         }
       }
     }
-    @media screen and (min-width: 600px) {
+    @media screen and (min-width: 800px) {
       flex-direction: row;
     }
   }
