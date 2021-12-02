@@ -814,7 +814,7 @@
   margin: 0px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
   .wrapper section {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
